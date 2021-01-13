@@ -1,0 +1,198 @@
+/*  page one */
+/* Desktop - 1 */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: black;
+}
+.root {
+  margin: auto;
+  max-width: 90%;
+  height: 100vh;
+  background: #ffb902;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+.header {
+  /* Welcome to */
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 72px;
+  line-height: 84px;
+  color: #000000;
+}
+.msg {
+  display: flex;
+  flex-direction: row;
+  font-size: 4rem;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+/* logo 1 */
+.responsive {
+  max-width: 700px;
+  height: auto;
+}
+/* Rectangle 1 */
+.boton {
+  flex: 1 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.trial {
+  background-color: #ff0b0b;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 65px;
+  border: 0;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.footer {
+  flex: 1 100%;
+  margin: 0;
+  flex-direction: column;
+  align-self: flex-end;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+/* DASHBOARD */
+.wrapper {
+  margin: auto;
+  max-width: 100%;
+  background: white;
+  display: flex;
+  flex-flow: row wrap;
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  flex: 1 100%;
+  max-height: 5rem;
+  align-items: center;
+  background: #ffb902;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-self: start;
+  align-content: space-between;
+}
+.home-logo {
+  max-width: 10rem;
+}
+.menu {
+  display: inherit;
+  list-style: none;
+  align-items: center;
+  background: #ffb902;
+}
+.menu li {
+  padding-left: 2rem;
+  color: rgb(53, 53, 53);
+  font-weight: 600;
+}
+.player {
+  flex: 1 25%;
+  margin: 2rem;
+  align-self: baseline;
+}
+.muse {
+  background-color: rgb(179, 179, 179);
+  display: flex;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.big-thumbnail {
+  max-width: 9rem;
+  flex: 1 100%;
+}
+.artist-playing {
+  flex: 1 100%;
+}
+.now-playing {
+  background-color: #ff0b0b;
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 0.05rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 1rem;
+}
+.music-player i {
+  padding-left: 1rem;
+}
+/* right side */
+
+.recommendations {
+  flex: 1 50%;
+  align-self: baseline;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+}
+.re-title {
+  background-color: #2d2614;
+  font-size: 1.2rem;
+  padding: 0.05rem;
+  color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.element-attente {
+  display: flex;
+  background-color: #e4e4e4;
+  color: #3f3f3f;
+  flex: 1 100%;
+  justify-content: space-between;
+  margin-top: 1rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  flex-direction: row;
+}
+.element-attente p {
+  align-items: center;
+  padding: 1rem;
+}
+.img-rec {
+  display: block;
+  max-height: 4rem;
+  margin: 0.5rem;
+}
+.video-player {
+  background-color: #ff0b0b;
+  color: white;
+  border: 0;
+  border-radius: 0.2rem;
+  padding: 0.7rem;
+  margin: 0.5rem;
+}
+
+.footerdash {
+  background-color: #ffb902;
+  font-family: "Calibri";
+  font-weight: 600;
+  color: #2d2614;
+  padding: 1rem;
+  align-self: baseline;
+  align-self: end;
+}
