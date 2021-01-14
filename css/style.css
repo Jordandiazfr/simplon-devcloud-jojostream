@@ -131,6 +131,28 @@ html {
 .artist-playing {
   flex: 1 100%;
 }
+.title-attente {
+  background-color: #e4e4e4;
+  padding: 0.1rem;
+  margin: 1rem 0;
+}
+.attente {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0 1rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 1rem;
+}
+.cancion {
+  font-weight: 600;
+}
+.img-att {
+  max-height: 2.5rem;
+}
+.icon {
+  padding: 1rem;
+}
 .now-playing {
   background-color: #ff0b0b;
   color: whitesmoke;
