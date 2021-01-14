@@ -11,7 +11,7 @@ function list_attente(art, song, picture) {
   attente.setAttribute("class", "attente");
   cancion.setAttribute("class", "cancion");
   image.setAttribute("class", "img-att");
-  image.setAttribute("src", "/img/" + picture);
+  image.setAttribute("src", "../img/" + picture);
   // adding info
   cancion.innerHTML = song;
   artist.innerHTML = art;
