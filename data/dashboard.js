@@ -127,13 +127,13 @@ function recommended(picture, song, art, link) {
 }
 let items = [
   ["mod.jpg", "Mood", "24kGoldn", "GrAchTdepsU"],
-  ["positions.png", "Positions", "Ariana Grande", ""],
-  ["afterhours.jpg", "The Weeknd", "Blinding Lights", ""],
-  ["holy.png", "Holy", "Justin Bieber", ""],
-  ["Future-Nostalgia.jpg", "Levitating", "Dua lipa", ""],
-  ["bang.jpg", "Bang!", "AJR", ""],
-  ["ava.jpg", "Kings & Queens", "Ava Max", ""],
-  ["positions.png", "34+35", "Ariana Grande", ""],
+  ["positions.png", "Positions", "Ariana Grande", "tcYodQoapMg"],
+  ["afterhours.jpg", "The Weeknd", "Blinding Lights", "4NRXx6U8ABQ"],
+  ["holy.png", "Holy", "Justin Bieber", "pvPsJFRGleA"],
+  ["Future-Nostalgia.jpg", "Levitating", "Dua lipa", "TUVcZfQe-Kw"],
+  ["bang.jpg", "Bang!", "AJR", "4THFRpw68oQ"],
+  ["ava.jpg", "Kings & Queens", "Ava Max", "jH1RNk8954Q"],
+  ["positions.png", "34+35", "Ariana Grande", "B6_iQvaIjXw"],
 ];
 var adding = items.map(function (key) {
   recommended(key[0], key[1], key[2], key[3]);
