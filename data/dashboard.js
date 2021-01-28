@@ -38,7 +38,7 @@ let elements = [
   ["Save your tears", "The Weeknd", "afterhours.jpg"],
   ["Balance ton quoi", "Angele", "Brol.jpg"],
   ["Valerie", "Amy Winehouse", "amy.jpg"],
-  ["The resistance", "Muse", "the-resistance.jpg"],
+  ["Resistance", "Muse", "the-resistance.jpg"],
 ];
 var mapping = elements.map(function (params) {
   list_attente(params[1], params[0], params[2]);
