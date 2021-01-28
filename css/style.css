@@ -125,8 +125,11 @@ html {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .big-thumbnail {
-  max-width: 9rem;
+  max-width: 10rem;
   flex: 1 100%;
+}
+audio {
+  outline: none;
 }
 .artist-playing {
   flex: 1 100%;
@@ -136,6 +139,7 @@ html {
   padding: 0.1rem;
   margin: 1rem 0;
 }
+/* en attente */
 .attente {
   display: flex;
   justify-content: space-between;
@@ -148,10 +152,19 @@ html {
   font-weight: 600;
 }
 .img-att {
+  position: relative;
   max-height: 2.5rem;
 }
-.icon {
+.play-btn {
+  position: relative;
   padding: 1rem;
+  border-radius: 2rem;
+  outline: none;
+}
+.play-btn ::after {
+  border: none;
+}
+.icon {
 }
 .now-playing {
   background-color: #ff0b0b;
@@ -162,6 +175,7 @@ html {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-bottom: 1rem;
 }
+
 .music-player i {
   padding-left: 1rem;
 }
